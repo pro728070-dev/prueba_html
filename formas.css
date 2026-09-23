@@ -1,0 +1,43 @@
+main { 
+    border: 1px solid red; 
+    height: 700px; 
+    width: 1400px; 
+    margin: auto; 
+    box-sizing: border-box; /* Evita que los bordes sumen tamaño al ancho total */
+} 
+
+header { 
+    border: 1px solid blue; 
+    height: 100px; 
+} 
+
+nav { 
+    border: 1px solid green; 
+    height: 50px; 
+} 
+
+aside { 
+    border: 1px solid yellow; 
+    height: 450px; 
+    width: 495px; /* Reducido ligeramente para absorber el espacio en blanco */
+    display: inline-block; 
+    vertical-align: top; /* Alinea los bloques por la parte superior */
+} 
+
+section { 
+    border: 1px solid purple; 
+    height: 450px; 
+    width: 895px; /* Reducido ligeramente para absorber el espacio en blanco */
+    display: inline-block; 
+    vertical-align: top; /* Alinea los bloques por la parte superior */
+} 
+
+footer { 
+    border: 1px solid orange; 
+    height: 50px; 
+} 
+
+article { 
+    border: 1px solid black; 
+    height: 220px; 
+}
